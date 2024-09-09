@@ -49,7 +49,7 @@ for i in range(25):
 #
 # model.save('image_classifier.keras')
 
-
+# loading and testing the model
 model = keras.models.load_model('image_classifier.keras')
 
 img = cv.imread('ship.jpg')
