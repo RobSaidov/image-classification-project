@@ -46,7 +46,7 @@ for i in range(25):
 model = keras.models.load_model('image_classifier.keras')
 
 # Preprocess the image to make prediction
-img = cv.imread('frog.jpg')
+img = cv.imread('images/frog.jpg')
 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 img = cv.resize(img, (32, 32))  # Resize to 32x32
 
