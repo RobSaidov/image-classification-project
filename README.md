@@ -78,7 +78,7 @@ print(f'It is a {class_names[index]}')
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/robsaidov/image-classification-project.git
    ```
    
 2. Install the required dependencies:
@@ -110,7 +110,3 @@ This project uses the following dependencies:
 - Improve accuracy by adding more layers or tuning hyperparameters.
 - Explore data augmentation to prevent overfitting.
 - Experiment with transfer learning using a pre-trained model.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
